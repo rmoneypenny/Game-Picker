@@ -24,6 +24,7 @@ ActiveRecord::Schema.define(version: 2019_02_01_163528) do
     t.string "name", null: false
     t.integer "number", null: false
     t.string "picked_game"
+    t.boolean "winner"
   end
 
 end
